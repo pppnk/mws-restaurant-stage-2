@@ -1,4 +1,4 @@
-const cacheVersion = 'mws-restaurant-static-v-2';
+const cacheVersion = 'mws-restaurant-static-v-3';
 
 
 self.addEventListener("install", function(event) {
