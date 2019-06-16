@@ -50,6 +50,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
     const option = document.createElement('option');
     option.innerHTML = neighborhood;
     option.value = neighborhood;
+    option.role = 'option';
     option.setAttribute('aria-label', `${neighborhood} option`);
     select.append(option);
   });
@@ -80,6 +81,7 @@ fillCuisinesHTML = (cuisines = self.cuisines) => {
     option.setAttribute('role', 'option');
     option.innerHTML = cuisine;
     option.value = cuisine;
+    option.role = 'option';
     select.append(option);
   });
 };
